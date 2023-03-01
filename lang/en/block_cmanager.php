@@ -22,7 +22,7 @@
  *
  * @package    block_cmanager
  * @copyright  2018 Kyle Goslin, Daniel McSweeney
- * @copyright  2021 Michael Milette (TNG Consulting Inc.), Daniel Keaman
+ * @copyright  2021-2022 Michael Milette (TNG Consulting Inc.), Daniel Keaman
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 $string['pluginname'] = 'Course Request Manager';
@@ -103,6 +103,10 @@ $string['email_requestDenied'] = 'Request denied e-mail';
 $string['email_handover'] = 'Handover request';
 $string['email_noReply'] = 'Communications e-mail address';
 $string['email_noReplyInstructions'] = 'This utility sends email requests to administrators and end users as course requests are processed. Please enter the email address that these emails will appear to be sent from. It is recommended to use a no-reply email address. e.g. noreply@example.com';
+
+// Plugin settings.
+$string['norequestcontrol'] = 'Disable request control';
+$string['norequestcontrol_desc'] = 'Check this box to disable the option to disable the option to request control of an existing course.';
 
 //email subjects and contents
 $string['emailSubj_userApproved'] = "Moodle request approved!";
